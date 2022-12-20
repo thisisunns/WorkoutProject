@@ -1,0 +1,64 @@
+.mainBarContainer{
+    padding: 50px 50px;    
+}
+.workoutHeading{
+    font-weight: 500;
+    font-size: 38px;
+    padding-bottom: 50px;
+}
+.workoutImages{
+    display: flex;    
+}
+.imgWrapper{
+    position: relative;
+    display: flex;
+    flex: 1;
+    transition: flex 0.5s;
+}
+.imgWrapper:hover{
+    flex:2;
+}
+.imgWrapperRight{
+    position: relative;
+    display: flex;
+    flex: 2;
+    transition: flex 0.5s;
+}
+.imgShrink{
+    position: relative;
+    display: flex;
+    flex: 1;
+}
+.workoutImage{  
+   object-fit: cover;
+   width: 100%;
+   height: 350px;
+}
+.leftImg{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.rightImg{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.imageHeading{
+    position: absolute;
+    top:20px;
+    left: 30px;
+    color: white;
+    font-weight: 300;
+}
+.arrowForward{
+    position: absolute;
+    right:20px;
+    top:20px;
+    color: gray;
+    background: white;
+    border-radius: 50%;
+    padding: 2px 2px ;
+    font-size: 5px;
+}
+.hideArrowBtn{
+    display: none !important;
+}
